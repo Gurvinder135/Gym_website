@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Squada One', cursive;
+        }
+
+        body {
+            background-image: url('bg.jpg');
+            background-size: cover;
+        }
+
+        #left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 30px;
+
+        }
+
+        #med {
+            /* border: 2px solid red; */
+            width: 650px;
+            display: block;
+            margin: 20px auto;
+        }
+
+        #right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            right: 0px;
+            top: 20px
+        }
+
+        #left img {
+            width: 60px;
+            height: 60px;
+            filter: invert(1);
+        }
+
+        #left div {
+            color: white;
+        }
+
+        #med li {
+            display: inline-block;
+            margin: 0px;
+            padding: 15px 29px;
+            font-size: 20px;
+        }
+
+
+        #med li a:hover {
+            color: rgb(10, 10, 10);
+            text-decoration: underline;
+
+        }
+
+        #med li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #right .btn {
+            padding: 7px 13px;
+            margin: 12px;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            font-family: 'Squada One', cursive;
+                    }
+
+        #right .btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .cont {
+            color: white;
+            font-size: 15px;
+            padding: 12px 2px;
+            margin: 193px 1085px;
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 359px;
+            text-align: center;
+        }
+
+        .input input {
+            margin: 16px auto;
+            padding: 3px 4px;
+            border: 2px solid white;
+            border-radius: 10px;
+            width: 304px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="left">
+        <img src="logo.png" alt="">
+    </div>
+    <div id="med">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Location</a></li>
+        </ul>
+    </div>
+    <div id="right">
+        <button class="btn">Call Now</button>
+        <button class="btn">Email Us</button>
+    </div>
+    <div class="cont">
+        <h3>Join Now</h3>
+        <form action="a.js" class="ff">
+            <div class='input'> <input type="text" placeholder="Full Name">
+            </div>
+            <div class='input'> <input type="text" placeholder="Email address"></div>
+            <div class='input'> <input type="text" placeholder="Contact Number"></div>
+            <div> <button class="btn">Submit</button></div>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
